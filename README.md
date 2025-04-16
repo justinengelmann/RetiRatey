@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo.png" alt="Reti Ratey Logo" width="150"/>
+  <img src="logo.png" alt="Reti Ratey Logo" width="350"/>
 </p>
 
 # Reti Ratey 👁️  
