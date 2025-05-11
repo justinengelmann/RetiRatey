@@ -46,9 +46,9 @@ from PIL import Image
 import timm
 
 # download the weights, e.g. with
-# wget https://github.com/justinengelmann/RetiRatey/releases/download/vpreview/retiratey_vpreview_statedict.pth
+# wget https://github.com/justinengelmann/RetiRatey/releases/download/v1/retiratey_v1_statedict.pth
 retiratey = timm.create_model('mobilenetv4_conv_small', num_classes=3, 
-                              checkpoint_path='retiratey_vpreview_statedict.pth').eval()
+                              checkpoint_path='retiratey_v1_statedict.pth').eval()
 
 @torch.inference_mode()
 def reti_rate(fpath):
@@ -96,8 +96,8 @@ from PIL import Image
 import numpy as np
 
 # download the weights, e.g. with
-# wget https://github.com/justinengelmann/RetiRatey/releases/download/vpreview/retiratey_vpreview.onnx
-session = ort.InferenceSession('retiratey_vpreview.onnx')
+# wget https://github.com/justinengelmann/RetiRatey/releases/download/v1/retiratey_v1.onnx
+session = ort.InferenceSession('retiratey_v1.onnx')
 
 def reti_rate_onnx(fpath):
     # outputs are quality of the disc, macula, vessels, in that order
