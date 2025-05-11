@@ -13,12 +13,6 @@ Reti Ratey is an AI model that rates the quality of retinal images. Particularly
 
 ---
 
-## 🛠️ Under Construction
-
-Currently, a preview version of the model is available. This works reasonably well in cross validation, but we are still putting on finishing touches for a final model which we will then evaluate on the held-out test set.
-
----
-
 ## 🌐 Web Demo
 
 A web demo can be found [here](https://justinengelmann.github.io/RetiRatey_Inference_vpreview.html). No installation required, just drop images into the website and get the results. This demo will actually run the model on your own machine, entirely within your web browser. This means no data will be uploaded or sent anywhere. But of course, don’t take my word for it.
